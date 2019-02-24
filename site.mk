@@ -35,7 +35,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := altmark-1.07
+DEFAULT_GLUON_RELEASE := gifhorn-1.07
 
 
 ##	GLUON_RELEASE

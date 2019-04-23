@@ -5,6 +5,8 @@
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
+    
+GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
     gluon-respondd \
     gluon-autoupdater \
@@ -17,7 +19,7 @@ GLUON_SITE_PACKAGES := \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-web-admin \
-    gluon-web-autoupdater \
+    -gluon-web-autoupdater \
     gluon-web-network \
     gluon-web-wifi-config \
     gluon-web-private-wifi \
@@ -27,7 +29,12 @@ GLUON_SITE_PACKAGES := \
     gluon-status-page \
     haveged \
     iptables \
-    iwinfo
+    iwinfo \
+    ffho-autoupdater-wifi-fallback \
+    ffho-web-autoupdater 
+
+# Wenn FFHO-web-autoupdater weg ist, dann web-autoupdater einschalten!
+#
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images

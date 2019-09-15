@@ -5,8 +5,6 @@
 #		The gluon-mesh-batman-adv-* package must come first because of the dependency resolution
 
 GLUON_SITE_PACKAGES := \
-    
-GLUON_SITE_PACKAGES := \
     gluon-mesh-batman-adv-14 \
     gluon-respondd \
     gluon-autoupdater \
